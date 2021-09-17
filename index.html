@@ -1,8 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<title>这是网页标题</title>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="keywords" content="腾讯视频,联通流量包,看视频免流量" />
+	<meta name="description" content="流量畅享包" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+	<link rel="stylesheet" href="./css/woplus_v2.css"  />
 </head>
-<body>
-<h1>这是网页内容</h1>
+<body class="page_woplus">
+<div class="container container_loading">
+	<div class="loading_content ">
+		<i class="icon_loading"></i>
+	</div>
+</div>
+<!-- 正式内容 开始 -->
+<div class="container">
+	<div class="card_list">
+		<div class="card_item item_chinamobile none">
+			<i class="icon_logo icon_chinamobile"></i>
+			<i class="chinamobile_logo_bg"></i>
+			<strong class="title">移动免流包</strong>
+			<div class="desc">在腾讯视频客户端内，3G/4G网络下观看视频、直播及下载视频流量全免</div>
+		</div>
+		<div class="card_item item_telecom none" data-href="https://chong.qq.com/mobile/traffic_tcvideo.shtml" _hot="index.to_telecom">
+			<i class="icon_logo icon_telecom"></i>
+			<i class="telecom_logo_bg"></i>
+			<strong class="title">电信免流包</strong>
+			<div class="desc">在腾讯视频客户端内，3G/4G网络下观看视频、直播及下载视频流量全免</div>
+		</div>
+		<div class="card_item item_unicon _item_unicon none" data-href="https://live.mige.tv/platform/ytpxz/tencent/15/index.html" _hot="index.to_wo_free_month">
+			<i class="icon_logo icon_unicom"></i>
+			<i class="unicom_logo_bg"></i>
+			<strong class="title">WO+联通免流包</strong>
+			<div class="desc">在腾讯视频客户端内，3G/4G网络下观看视频、直播及下载视频流量全免</div>
+		</div>
+		<div class="card_item item_unicon _item_unicon_plus none" data-href="https://live.mige.tv/platform/ytpxz/tencent/20/new/index.html?cid=tch5new" _hot="index.to_wo_plus">
+			<i class="icon_logo icon_unicom"></i>
+			<i class="unicom_logo_bg"></i>
+			<strong class="title">联通免流+腾讯视频VIP</strong>
+			<div class="subtitle"><a href="javascript:;" id="sub_wo_plus_id">点击订购 &gt;</a></div>
+			<div class="desc">在腾讯视频客户端内，3G/4G网络下观看视频、直播及下载视频流量全免，再送你腾讯视频VIP会员 </div>
+		</div>
+		<div class="card_item item_b_king none" data-href="dawang.html" _hot="index.to_dawang">
+			<i class="icon_logo icon_unicom"></i>
+			<strong class="title">联通大/天/地王卡</strong>
+			<div class="desc">在腾讯视频客户端、QQ音乐、微信、QQ、游戏内，3G/4G网络下观看视频、直播及下载视频流量全免</div>
+		</div>
+		<div class="card_item item_s_king none" data-href="xiaowang.html"_hot="index.to_xiaowang">
+			<i class="icon_logo icon_unicom"></i>
+			<strong class="title">联通小王卡</strong>
+			<div class="desc">在腾讯视频客户端内，3G/4G网络下观看视频、直播及下载视频流量全免</div>
+		</div>
+	</div>
+
+</div>
+<script type="text/javascript" src="./js/txmv.base.smallest.js"></script>
+<script type="text/javascript" src="./js/QQVideoWoBridge.js"></script>
+<script type="text/javascript" src="./js/free_flow.js?v=20210517"></script>
+<script>
+	seajs.use("frame",function(f){
+		f.initIndex();
+	});
+</script>
 </body>
 </html>
